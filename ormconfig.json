@@ -1,0 +1,20 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "12345",
+  "database": "teste_compasso",
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "src/modules/states/infra/typeorm/entities/*.ts",
+    "src/modules/cities/infra/typeorm/entities/*.ts",
+    "src/modules/clients/infra/typeorm/entities/*.ts"
+  ],
+  "migrations": ["src/shared/infra/typeorm/migrations/**/*.ts"],
+  "subscribers": ["src/database/subscriber/**/*.ts"],
+  "cli": {
+    "migrationsDir": "src/shared/infra/typeorm/migrations"
+  }
+}

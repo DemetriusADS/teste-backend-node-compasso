@@ -1,0 +1,30 @@
+{
+  "name": "TESTE_NODEJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/node": "^8.0.29",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "3.3.0",
+    "ts-node-dev": "^1.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typeorm": "^0.2.29",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.14.1",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.10",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --respawn --ignore-watch node_modules src/shared/infra/http/server.ts",
+    "start": "ts-node src/shared/infra/http/server.ts",
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+  }
+}
