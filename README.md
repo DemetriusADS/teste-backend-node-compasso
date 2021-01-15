@@ -1,6 +1,6 @@
 # Desafio Técnico NodeJS - Compasso Uol
 
-Neste desafio, eu não optei por não me aprofundar muito na aplicação, como, por exemplo, não adicionar os métodos para apagar ou alterar os Estados ou cidades. Optei por seguir o conselho dado nas instruções do desafio, e para ajudar na execução do projeto, criei um passo a passo para executar e testar o projeto.
+Neste desafio, eu não optei em aprofundar muito na aplicação, como, por exemplo, adicionar os métodos para apagar ou alterar os Estados ou cidades. Optei por seguir o conselho dado nas instruções do desafio, e para ajudar na execução do projeto, criei um passo a passo para executar e testar o projeto.
 Espero que gostem e estou a disposição para tirar qualquer dúvida.
 
 ---
