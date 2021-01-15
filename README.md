@@ -32,7 +32,7 @@ E por fim, executar o projeto:
 
 ## Insomnia:
 
-~Na raiz do projeto, há um arquivo chamado Insomnia_import_2021-01-12.json.~
+_Na raiz do projeto, há um arquivo chamado Insomnia_import_2021-01-12.json._
 
 Este arquivo é para ser importado no Insomnia. Nele contém todas as rotas a serem testadas na API.
 [image:04025B6E-0053-4EB1-8CFC-989440529255-846-00000157EB71EB40/Screen Shot 2021-01-15 at 10.11.07.png]
