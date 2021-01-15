@@ -19,6 +19,8 @@ Espero que gostem e estou a disposição para tirar qualquer dúvida.
 
 Certifique-se que você possui o PostgreSQL instalado e rodando em Docker ou normalmente no sistema.
 
+- Para configurar as credenciais do banco, acesso o arquivo na raiz do projeto: ormconfig.json
+
 No Terminal, dentro da pasta raiz do projeto, executar o comando:
 `yarn` ou `npm i`
 
