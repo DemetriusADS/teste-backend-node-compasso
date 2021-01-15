@@ -34,7 +34,7 @@ E por fim, executar o projeto:
 
 ## Insomnia:
 
-_Na raiz do projeto, há um arquivo chamado Insomnia_import_2021-01-12.json._
+_Na raiz do projeto, há um arquivo chamado Teste_Compasso_Insomnia.json._
 
 Este arquivo é para ser importado no Insomnia. Nele contém todas as rotas a serem testadas na API.
 
