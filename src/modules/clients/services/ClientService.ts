@@ -122,7 +122,6 @@ class ClientService {
     if (!client) {
       throw new AppError('This client doesnt exist.');
     }
-    console.log(client_id);
     await clientsRepository.delete({ id: client_id });
     return { status: 200, message: 'Apagado com sucesso!' };
   }

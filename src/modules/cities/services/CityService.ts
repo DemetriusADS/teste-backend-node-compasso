@@ -30,7 +30,6 @@ class CityService {
       const findCity = await citiesRepository.findOne({
         where: { name, state: { id: state_id } },
       });
-      console.log(findCity);
       if (findCity) {
         throw new AppError('This city already exists');
       }
