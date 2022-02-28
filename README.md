@@ -11,7 +11,7 @@ Espero que gostem e estou a disposição para tirar qualquer dúvida.
 - ExpressJS 4.17.1
 - Typescript 3.3.3333
 - TypeORM 0.2.29
-- PostgresSQL
+- PostgresSQL.
 
 ---
 
